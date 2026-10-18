@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "survivalbot",
+  "version": "${version}",
+  "name": "Survival Bot",
+  "description": "A friendly helper that gathers, follows, builds a small hut and clears a small area on command.",
+  "authors": ["SurvivalBot"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["pl.survivalbot.SurvivalBotMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
